@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "dart_mcp_pub_consultant": {
+            "type": "stdio",
+            "command": "dart",
+            "args": [
+                "run",
+                "/Users/samuelaimarmauriciolaime/Documents/personal/dart_mcp_pub_consultant/bin/dart_mcp_pub_consultant.dart"
+            ]
+        }
+    }
+}
