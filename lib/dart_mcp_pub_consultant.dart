@@ -27,7 +27,7 @@ class MCPPubConsultant {
   void registerGetLastPackageVersionInfoHandler() {
     server.tool(
       "getLastPackageVersionInfo",
-      description: 'Get last package version info',
+      description: 'Get last dart/flutter package version info',
       inputSchemaProperties: {
         'packageName': {'type': 'string'},
       },
@@ -62,7 +62,7 @@ class MCPPubConsultant {
   void registerGetPackageInfoByVersionHandler() {
     server.tool(
       "getPackageInfoByVersion",
-      description: 'Get package info by version',
+      description: 'Get dart/flutter package info by version',
       inputSchemaProperties: {
         'packageName': {'type': 'string'},
         'version': {'type': 'string'},
@@ -102,7 +102,7 @@ class MCPPubConsultant {
   void registerReturnSamePackageHandler() {
     server.tool(
       "returnSamePackage",
-      description: 'Return same package',
+      description: 'Return same dart/flutter package',
       inputSchemaProperties: {
         'packageName': {'type': 'string'},
       },

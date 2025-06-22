@@ -8,9 +8,17 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+  # Dependencias principales
   http: 1.2.1
   mcp_dart: 0.5.1
+  
+  # Paquetes para reconocimiento facial
+  camera: ^0.11.1
+  google_mlkit_face_detection: ^0.13.1
+  tflite_flutter: ^0.11.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.0+1
 
 dev_dependencies:
   lints: ^3.0.0
